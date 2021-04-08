@@ -1,0 +1,11 @@
+n = int(input(":"))
+
+f = [1,1]
+
+a = 0
+
+while a < n-2:
+    nx = f[len(f) - 2] + f[len(f) -1]
+    f.append(nx)
+    a += 1
+print(f)
